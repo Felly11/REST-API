@@ -1,7 +1,6 @@
 # REST-API
 
-```
-if (!empty($_GET['location'])) {
+```if (!empty($_GET['location'])) {
     /**
      * Here we build the url we'll be using to access the google maps api
      */
@@ -28,5 +27,4 @@ if (!empty($_GET['location'])) {
     $json = file_get_contents($url);
     $array = json_decode($json, true);
 }
-
 ```
