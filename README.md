@@ -1,4 +1,7 @@
 # REST-API
+
+This is A simple PHP web application which converts a location into latitude and longitude using the Google Maps API. Then it uses those coordinates to pull images that ware taken in that location from the Instagram API
+
 1. You will need an instagram client iD [Instagram Developer](https://www.instagram.com/developer/)'
 
 ```php
