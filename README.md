@@ -1,5 +1,5 @@
 # REST-API
-1. You will need an instagram clien it [Instagram Developer](https://www.instagram.com/developer/)'
+1. You will need an instagram client iD [Instagram Developer](https://www.instagram.com/developer/)'
 
 ```php
 if (!empty($_GET['location'])) {
