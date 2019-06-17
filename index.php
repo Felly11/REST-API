@@ -39,7 +39,7 @@ if (!empty($_GET['location'])) {
 <body>
 <center><form action="" method="get">
     <input type="text" name="location"/>
-    <button type="submit">Submit</button>
+    <button type="submit">Search</button>
 </form></center>
 <br/>
 <div id="results" data-url="<?php if (!empty($url)) echo $url ?>">
