@@ -22,7 +22,7 @@ if (!empty($_GET['location'])) {
         'api.instagram.com/v1/media/search' .
         '?lat=' . $lat .
         '&lng=' . $lng .
-        '&client_id=2e7e918d0e8e4e19819eb0f0e3ce8c00'; //replace "CLIENT-ID"
+        '&client_id=2e7e918d0e8e4e19819eb0f0e3ce8c00'; //replace CLIENT-ID you will find is https://instagram.com/developers
 
     $json = file_get_contents($url);
     $array = json_decode($json, true);
