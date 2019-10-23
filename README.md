@@ -25,7 +25,7 @@ if (!empty($_GET['location'])) {
 
     /**
      * how we will make our Instagram api request. We'll build the url using the
-     * coordinate values returned by the google maps api
+     * coordinate values returned by the google maps api -lat| lng 
      */
     $url = 'https://' .
         'api.instagram.com/v1/media/search' .
